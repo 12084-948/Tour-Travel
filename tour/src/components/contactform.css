@@ -1,0 +1,36 @@
+.formContainer{
+    margin: 4rem 6rem;
+    color: black;
+}
+
+.formContainer h1{
+    text-align: center;
+}
+
+.formContainer form{
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+}
+
+.formContainer input{
+    height: 3rem;
+    padding: 0 1rem;
+    margin-bottom: 2rem;
+    border-radius: 0.3rem;
+    border: 1px solid black;
+}
+
+.formContainer textarea{
+    padding: 1rem;
+    margin-bottom: 2rem;
+    border-radius: 0.3rem;
+    border: 1px solid black;
+}
+
+.cBtn{
+    background-color: rgb(216, 211, 211);
+    padding: 1rem;
+}

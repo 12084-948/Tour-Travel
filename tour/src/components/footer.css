@@ -1,0 +1,58 @@
+.footer{
+    padding: 4rem 6rem;
+    background-color: black;
+    color: white;
+}
+
+.top{
+    display: flex;
+    align-items: center;
+    text-align: start;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30rem;
+}
+
+
+.top i{
+    color: white;
+    font-size: 2rem;
+    margin-left: 1rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.top i:hover{
+    transform: scale(1.3);
+    color: white;
+}
+
+.top p{
+    font-size: 1.5rem;
+    margin: 1.1rem 0;
+}
+
+
+.bottom{
+    padding-top: 2rem;
+    text-align: start;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.bottom div{
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom h4{
+    font-size: 1.3rem;
+    padding: 1rem 0 0.8rem 0;
+}
+
+.bottom a{
+    text-decoration: none;
+    color: white;
+    padding-bottom: 0.4rem;
+    font-size: 1.1rem;
+}

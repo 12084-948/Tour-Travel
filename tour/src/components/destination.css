@@ -1,0 +1,69 @@
+.destination {
+    margin: 4rem 6rem;
+}
+
+.destination h1 {
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 800;
+}
+
+.des {
+    font-size: 1.3rem;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.firstDes {
+
+    display: flex;
+    align-items: center;
+    gap: 8rem;
+    /* justify-content: space-between; */
+    margin-top: 4.5rem;
+}
+
+.firstDesReverse {
+
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 8rem;
+    /* justify-content: space-between; */
+    margin-top: 7.5rem;
+}
+
+.desText {
+    width: 35%;
+    text-align: justify;
+    font-size: 1.1rem;
+    margin-left: 5rem;
+}
+
+.desText h2 {
+    font-size: 2.3rem;
+    padding-bottom: 1rem;
+}
+
+.image {
+    margin-left: 4rem;
+    position: relative;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    z-index: -9;
+}
+
+.image img {
+    width: 49%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 6px;
+    box-shadow: -1px 1px 62px -18px rgba(0, 0, 0, 0.19);
+}
+
+.image img:nth-child(2) {
+    position: absolute;
+    top: -10%;
+    right: 0;
+}
